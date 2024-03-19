@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url(Montserrat-Bold.woff) format(woff);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    src: url(Montserrat-SemiBold.woff) format(woff);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url(Montserrat-Medium_1.woff) format(woff);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url(Montserrat-Regular_1.woff) format(woff);
+}
+* {
+    font-family: "Montserrat", sans-serif;
+
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header__nav {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #333;
+
+}
+
+.header__button,
+.button_main_two {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+.page-designation {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.25px;
+    color: rgba(51, 51, 51, 0.70);
+}
+.page-title {
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: var(--text-primary, #333);
+
+}
+.filters,
+.filters__filter,
+.articles__filters
+ {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333;
+
+}
+
+.article__top-block_content_header {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.article__top-lists,
+.main-section__content-quote_author {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+.article__top-list_topic,
+.article__top-list_topic_with-no-bullet {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    text-decoration-line: underline;
+   
+
+}
+/* FOR ALL TEXT ARTICLE */
+
+
+.main-section__content-1_text-1,
+.main-section__content-1_text-2 {
+    color: var(--text-primary, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.main-section__content-quote_text {
+    color: #333;
+   font-size: 16px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 24px; 
+}
+.main-section__content-2,
+.main-section__content-3,
+.main-section__content-5,
+.main-section__content-6 {
+    color: var(--text-primary, #333);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+
+
+
+
+/*sidebar*/
+.sidebar__filter_topic {
+    color: var(--text-primary, #333);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+}
+.sidebar__heading_name {
+    color: var(--text-primary, #333);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+.sidebar__heading_status {
+    color: var(--text-primary, #333);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.sidebar__heading_info {
+    color: var(--neutrals-n-66, #A2A7B1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.articles__heading,
+.footer__basis__subscribe_heading
+ {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: #333;
+}
+.articles__author { 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color:#494949;
+}
+.articles__date {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        color: #868686;
+}
+
+.article__top-block_content_author {
+    color: #494949;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+
+}
+    
+.articles__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+}
+.articles__button button,
+.footer__basis__lists
+ {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer__link,
+.footer__basis__subscribe_heading {
+    color: #FFF;
+    text-decoration: none;
+}
+.footer__basis__subscribe_heading {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+input {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-secondary, #9D9D9D);
+
+}
+
+.footer__basis__subscribe_notice {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+    
+}
+
+.footer__bottom_info {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFF;
+    opacity: 0.7;
+}

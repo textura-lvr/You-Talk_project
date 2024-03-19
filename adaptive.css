@@ -1,0 +1,291 @@
+/* Блог wide screen */
+
+@media only screen and (min-width:1200px) {
+.container-articles {
+    background-image: url("./images/svg/bottom_background.svg");
+    background-position: center bottom 302px;
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+    }
+    .content-block3__reminder {
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width:1200px) { 
+
+.header__nav {
+    margin-left: 32px;
+}
+.header__list {
+    gap: 16px;
+}
+
+.body {
+    background-image: none;
+
+}
+.page-designation {
+    margin-bottom: 40px;
+}
+.header,
+main,
+.footer {
+    padding: 0 26px;
+}
+
+.articles__img-block_section_1 {
+    height: 260px;
+}
+.articles__info-block_first {
+    height: 240px;
+}
+.article__top-list_topic:nth-child(2),
+.article__top-list_topic:nth-child(4)
+ {
+    display: none;
+}
+.article__top-list_topic_with-no-bullet {
+    display: none;
+}
+.footer__basis__lists {
+grid-template-columns: 111px 31px 106px;
+}
+.footer__basis__subscribe {
+    max-width: 450px;
+    gap: 21px;
+}
+
+.main-section__sidebar {
+    max-width: 222px;
+}
+.bottom__svg {
+    display: none;
+}
+.sidebar__window {
+    height: 280px;
+}
+.main-section__articles {
+    margin-bottom: 71px;
+}
+.main-article__vector,
+.main-section__bottom-links,
+.article__bottom-block {
+    display: none;
+}
+.sidebar__window_bottom {
+    max-width: 222px;
+}
+
+.window__gift-img-1 {
+    width: 112px;
+}
+.window__gift-img-2 {
+    left: 50px;
+    width: 150px;
+}
+
+}
+/* iPad mini - 2*/
+
+@media only screen and (max-width:768px) { 
+    
+.header__nav {
+    display: none;
+}
+.header__burger {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    }
+.header__button {
+    display: none;
+}
+.header,
+main,
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ body {
+    background-image: none;
+ }
+ .page-designation {
+    margin-bottom: 40px;
+ }
+.articles__article:nth-child(1),
+.articles__article:nth-child(2) {
+    grid-column: span 6;
+}
+.articles__article:nth-child(n+3) {
+    grid-column: span 3;
+}
+.articles__img-block_section_1 {
+    width: 728px;
+    height: 404px;
+}
+.articles__info-block_first {
+    height: 196px;
+}
+.articles__info-block:nth-child(n+3) {
+    height: 241px;
+}
+.article__main-block {
+    max-width: 728px;
+}
+.main__wrapper {
+    flex-direction: column;
+}
+.main-section__sidebar {
+    max-width: 768px;
+    margin-bottom: 63px;
+    float: none;
+}
+.sidebar__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+   
+}
+.sidebar__card-window,
+.sidebar__card-profile,
+.sidebar__window,
+.sidebar__tarrif {
+    width: 100%;
+    max-width: 340px;
+   
+}
+.content-block3__reminder_text {
+    margin: 0;
+}
+.article__top-block_content_image {
+    width: 714px;
+    height: 331px;
+}
+
+.footer__basis {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.footer__bottom {
+    margin-bottom: 23px;
+}
+
+.window__gift-img-1 {
+    border-radius: 0;
+    left: 10px;
+}
+.window__gift-img-2 {
+    left: 120px;
+}
+
+
+}
+
+
+
+/* iPhone 11 Pro Max */
+
+@media only screen and (max-width:414px) { 
+.header,
+main,
+.footer {
+    padding: 0 20px;
+     }
+.filters {
+    flex-flow: row nowrap;
+    }
+
+.article__top-block_content_header {
+    overflow: hidden;
+    font-size: 32px;
+    line-height: 40px;
+    }
+.page-designation {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    padding: 5px; /* Поля вокруг текста */
+    text-overflow: ellipsis;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    }
+.articles__img-block_section_1,
+.articles__img-block_section_2 {
+    max-width: 100%;
+    height: 206px;
+}
+.articles__info-block_first,
+.articles__info-block {
+    min-height: 260px;
+}
+.main__wrapper {
+    max-width: 374px;
+}
+.article__top-block_content_image {
+    width: 374px;
+    height: 207px;
+}
+.main-section__content-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sidebar__card-window,
+.sidebar__card-profile,
+.sidebar__window,
+.sidebar__tarrif {
+    width: 100%;
+   
+}
+
+.footer__basis__lists {
+    grid-template-columns: 111px 158px 106px;
+    }
+.footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer__basis__subscribe_heading {
+    width: 100%;
+    margin-bottom: 0;
+
+}
+}
+
+@media only screen and (max-width:320px) {
+
+.body-articles {
+    max-width: 320px;
+}
+.article__top-block_content_header {
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.header,
+main {
+    padding: 0 16px;
+
+}
+.footer {
+    padding: 0 14px;
+}
+
+.footer__basis__lists {
+    grid-template-columns: 111px 71px 106px;
+    }
+.article__top-block_content_image {
+    width: 288px;
+    height: 160px;
+}
+
+}
+
